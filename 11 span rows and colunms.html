@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>span rows and colunms</title>
+        <style>
+            table{
+                width: 600px;
+                padding: 6px;
+                background-color: aquamarine;
+            }
+            table,td,th{
+                border: 2px solid black;
+                border-collapse: collapse;
+                font-size: 24px;
+            }
+            th,td{
+                padding: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <!--caption is the first child for table-->
+            <caption>Time-Table</caption>
+            <tr>
+                <td rowspan="6">Hours</td>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+            </tr>
+            
+            <tr>
+                <td>maths</td>
+                <td>english</td>
+                <td>hindi</td>
+                <td>physics</td>
+            </tr>
+            <tr>
+                <td>maths</td>
+                <td>english</td>
+                <td>hindi</td>
+                <td>physics</td>
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align: center;">Lunch Break</td>
+            </tr>
+            <tr>
+                <td>maths</td>
+                <td>english</td>
+                <td>hindi</td>
+                <td>physics</td>
+            </tr>
+            <tr>
+                <td>maths</td>
+                <td>english</td>
+                <td>hindi</td>
+                <td>physics</td>
+            </tr>
+        </table>
+    </body>
+</html>

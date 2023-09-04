@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rocket</title>
+        <style>
+            body{
+                background-image: url(back.jpg);
+                
+                margin: 0;
+            }
+            img{
+                width: 300px;
+                height: 200px;
+                aspect-ratio: 3/2;
+                position: absolute;
+                
+                bottom: 60px;
+                left: 50%;
+                mix-blend-mode: multiply;
+                transform: translatex(-50px);
+                animation-name: fly;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes fly {
+                0%{
+                    transform: translate(-50px,0);
+                }
+                100%{
+                    transform: translate(-50px,-100vh);
+                }
+                
+            }
+        </style>
+    </head>
+    <body>
+        <img src="rocket.jpg" alt="rocket">
+    </body>
+</html>

@@ -1,0 +1,121 @@
+body{
+    font-family: Arial,sans-serif;
+}
+.toolbar{
+    font-size: 13px;
+    color: rgba(0,0,0,0.8);
+    text-decoration: none;
+    position: relative;
+    top: -8px;
+    padding-right:  4px;
+}
+.toolbar:hover{
+    text-decoration: underline;
+}
+.material-symbols-outlined{
+    width: 32px;
+    height: 32px;
+    display: none;
+}
+nav{
+    text-align: right;
+    position: relative;
+    right: 22px;
+    top: 10px;
+}
+section{
+    text-align: center;
+    padding-top: 12%;
+}
+#searchbox{
+    border-radius: 24px;
+    width: 582px;
+    padding: 14px;
+    font-size: 13px;
+    border: 2px solid #dfe1e5;
+    color: #222;
+
+}
+#searchbox:hover{
+    border-color: rgba(223,225,229,0);
+    box-shadow: 2px 2px 2px 2px rgb(242, 123, 123);
+}
+#searchbox:focus{
+    border-color: rgba(223,225,229,0);
+    box-shadow: 2px 2px 2px 2px rgb(242, 123, 123);
+    outline: none;
+    
+}
+#mic{
+    width: 15px;
+    height: 18px;
+    position: relative;
+    right: 50px;
+    top: 5px;
+}
+#mic:hover{
+    cursor: pointer;
+}
+.buttons{
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    
+    
+}
+.buttons:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    cursor: pointer;
+    
+}
+.buttons:first-of-type{
+    margin-right: 16px;
+}
+#apps{
+    width: 270px;
+    box-shadow: 1px 1px blanchedalmond;
+    border: 2px solid #ccc;
+    padding: 18px;
+    position: absolute;
+    bottom: 460px;
+    left:1150px
+
+}
+.appitem{
+    width: 40px;
+    height: 40px;
+    padding: 8px 2px;
+    
+}
+.apps1{
+    display: inline-block;
+    width: 84px; 
+}
+.apps1 > p{
+    color: rgba(0,0,0,0.87);
+    margin: 0;
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+.appitem:hover{
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+#apps{
+    display: none;
+}
+.material-symbols-outlined:hover {
+    cursor: pointer;
+}
+.material-symbols-outlined:hover .apps1{
+    display: block;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact</title>
+        <link rel="stylesheet" href="co.css" type="text/css">
+        <style>
+            #formm{
+                
+                padding: 16px;
+                background-color: white;
+                text-align: center;
+                width: 300px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .input{
+                font-size: 16px;
+                border:1px solid lightcyan;
+                border-bottom: 2px solid lightgray;
+                padding: 10px;
+                outline: none;
+                box-sizing: border-box;
+                border-radius: 2px;
+                
+            }
+            #submit{
+                margin-top: 4px;
+            }
+            #toolbar{
+                text-align: center;
+                background-color: rgb(13, 13, 47);
+                color: white;
+                margin-left: 0;
+                padding: 16px;   
+            }
+            #last{
+                background-color: rgb(200, 200, 250); 
+                color: white; 
+                font-size: 20px;
+                cursor: pointer;
+                border: 1px solid lightblue ;
+                padding: 5px;
+                outline: none;
+                opacity: 1;
+            }
+            #last:hover{
+                color: rgb(246, 245, 248);
+                background-color: rgb(7, 27, 241);
+            }
+            #last:active{
+                color: green;
+            }
+        </style>
+    </head>
+    <body style="background-color: lightcyan; margin: 0;">
+        <div id="toolbar">
+            <a href="26 final project.html" target="_blank"><span style="padding: 5px; color: white;">TRIPS</span></a>
+            <span style="padding: 5px;">ABOUT</span>
+            <a href="contact.html" target="_blank"><span style="padding: 5px; color: white;">CONTACT</span></a>
+        </div>
+        <form >
+            <h1 style="text-align: center;">Wanna come on my next trip?Contact Me</h1>
+            <div id="formm" >
+                <input class="input" type="text" name="full name" placeholder="Full Name" required><br>
+                <input class="input" type="email" name="email" placeholder="Email" required><br>
+                <input class="input" type="number" name="phone number" placeholder="Contact Number" required><br>
+
+             <div style="margin-top: 50px;">
+                <input  id="last" type="submit" value="Submit" name="submit"/>
+            </div>
+            </div>
+        </form>
+    </body>
+    
+</html>

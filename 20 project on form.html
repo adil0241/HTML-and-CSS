@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project on form</title>
+        <link rel="stylesheet" href="formm.css" type="text/css">
+        <style>
+            form{
+                text-align: center;
+                background-color: white;
+                border: 1px solid #ccc;
+                width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .images{
+                width: 50px;
+                height: 50px;
+                padding-top:16px ;
+                padding-bottom: 16px;
+                padding-right: 32px;
+                padding-left: 32px;         
+            }
+            .input{
+                border:0;
+                border-bottom: 1px solid #ccc;
+                font-size: 16px;
+                padding-bottom: 12px;
+                padding-top: 50px;
+                width: 100%;
+            }
+            #inputforall{
+                padding-bottom: 40px;
+                padding-top: 80px;
+                padding-left: 80px;
+                padding-right: 80px;
+                
+                 
+            }
+            #register{
+                background-color: rgb(155, 155, 235);
+                color: white;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                border: none;
+            }
+            #register:hover{
+                background-color: darkblue;
+            }
+        </style>
+    </head>
+    <body style="background-color: #f2f6ff; margin:0px;padding: 16px;">
+        <form>
+            <h1 style="text-align: center;">Register</h1>
+            <div style="background-color: #f2f6ff; padding: 24px;">
+                <img class="images" src="google.png" alt="google" />
+                <img src="Facebook-logo.png" alt="google" class="images"/>
+                <img src="Octicons-mark-github.svg.png" alt="google" class="images"/>
+                <img src="linkedin.png" alt="google" class="images"/>
+            </div>
+            <div id="inputforall">
+                <input class="input" type="text" name="username" placeholder="Username" autofocus/><br>
+                <input class="input" type="email" name="email" placeholder="Email"/><br>
+                <input class="input" type="password" name="password" placeholder="password"/><br>
+                <input class="input" type="password" name="confirm password" placeholder="Confirm password"/>
+            </div>
+            <div >
+                <input type="submit" name="submit" value="Register" id="register"/>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+.input:focus{
+    background-color: rgb(218, 244, 244);
+}
+.input:disabled{
+    cursor: not-allowed;
+}
+
+
+
+
+
+
+    

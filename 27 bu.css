@@ -1,0 +1,18 @@
+#facebook{
+    background-color: #3b5993;
+}
+#google{
+    background-color: #dd4b3d;
+}
+#github{
+    background-color: black;
+}
+button{
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+}
+.fb{
+    padding: 5px;
+}

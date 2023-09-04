@@ -1,0 +1,31 @@
+.img{
+    width: 300px;
+    height: 350px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 1px;
+    column-gap: 1px;
+    padding: 5px;
+}
+.img:hover{
+    animation-name: zoom;
+    animation-duration: 1s;
+
+}
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+@media (max-width:900px){
+    #grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    
+}
+}
